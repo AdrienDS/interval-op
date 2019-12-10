@@ -1,0 +1,22 @@
+{
+  "name": "interval-op",
+  "version": "0.1.0",
+  "description": "Basic operations on open intervals in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no dist/test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrienDS/interval-op.git"
+  },
+  "author": "Adrien DS <adrien.h.david@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrienDS/interval-op/issues"
+  },
+  "homepage": "https://github.com/AdrienDS/interval-op#readme",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
