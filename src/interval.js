@@ -35,7 +35,7 @@ function subtract (iListA, iListB) {
       const [startB, endB] = setB[iB]
       if (startA >= endB) continue //       (B) [A]        : continue to next element of setB
       if (endB < endA) {
-        if (startA > startB) {
+        if (startA >= startB) {
           setA[iA][0] = endB //             (B [ ) A]      : startA <- endB
         } else {
           split(setA, iA, startB, endB) //  [ (B)  A]      : split [A(, )A']
