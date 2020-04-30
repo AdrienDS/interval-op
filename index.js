@@ -1,1 +1,1 @@
-module.exports = require('./src/interval');
+module.exports = require('./src/interval')
