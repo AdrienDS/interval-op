@@ -27,7 +27,6 @@ function union (iList) {
 function subtract (iListA, iListB) {
   const setA = union(iListA)
   const setB = union(iListB)
-  console.log(JSON.stringify(setA), '-', JSON.stringify(setB))
 
   let iB = 0
   for (let iA = 0; iA < setA.length; iA++) {
