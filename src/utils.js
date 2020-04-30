@@ -32,7 +32,7 @@ function valid (interval) {
  * @param {[Interval]} iList
  */
 function sortByStart (iList) {
-  iList.sort((a, b) => start(a) - start(b))
+  iList.sort((a, b) => start(a) > start(b) ? 1 : -1)
 }
 
 function copyInterval (interval) {
